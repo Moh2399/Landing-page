@@ -1,0 +1,170 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color:white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    color: #dddada;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    font-size: 14px;
+}
+
+.one {
+    display: flex;
+    gap: 2rem;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.desc {
+    width: 400px;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 90px;
+}
+
+.desc p {
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.desc button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #3b82f6;
+    color: whitesmoke;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff66;
+}
+
+.subtitle {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.two {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-flow: row nowrap;
+    padding: 20px;
+}
+
+
+.content {
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.content .pic {
+    border: 5px solid #4287f6 ;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.content p {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.529);
+}
+
+.quote {
+    background-color: #dddada;
+    padding: 50px;
+    margin-bottom: 6rem;
+}
+
+.quote p {
+    color: #0000009e;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.quote span {
+    float: right;
+    font-weight: bolder;
+}
+
+.banner {
+    width: 80vw;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #3b82f6;
+}
+
+.banner div {
+    width: 50%;
+}
+
+.banner h3, p{
+    margin: 0;
+}
+.banner p {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.banner button {
+    align-self: center;
+    padding: 10px 30px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 6rem;
+    padding: 20px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    font-weight: lighter;
+}
